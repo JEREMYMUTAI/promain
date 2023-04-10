@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+	<link rel="stylesheet" type="text/css" href="register.css">
+	
+    
+</head>
+<body>
+	
+	<h1>Register</h1>
+	<form action="register.php" method="post" onsubmit="return validateForm()">
+		<label for="username">Username:</label>
+		<input type="text" id="username" name="username"><br><br>
+		<label for="password">Password:</label>
+		<input type="password" id="password" name="password"><br><br>
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email"><br><br>
+		<input type="submit" value="Register">
+	</form>
+	<img src="img/product-image.jpg" height="100px" 
+	<p>Already have an account? <a href="login.html">Login here</a>.</p>
+	
+
+	<script>
+		function validateForm() {
+			var username = document.getElementById("username").value;
+			if (username === "") {
+				alert("Please enter a username.");
+				return false;
+			}
+
+			var password = document.getElementById("password").value;
+			if (password === "") {
+				alert("Please enter a password.");
+				return false;
+			}
+
+			var email = document.getElementById("email").value;
+			if (email === "") {
+				alert("Please enter an email.");
+				return false;
+			}
+
+			// add any additional validation checks here
+
+			// if all checks pass, return true to submit the form
+			return true;
+		}
+	</script>
+	<section>
+		<a href="HOMEPAGE.HTML"><b>Home</b></a>
+		<marquee behavior="scroll" direction="right" scrollamount="fast">Try it out today and see how our system can benefit your business!</marquee>
+	  </section>
+	<footer>            
+        <p>&copy; 2023 Ice Cream Management System. All rights reserved.</p>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-k6x3Lq3hDZvSSf5a5uh5/9hWJm/CBvM1jK2mGdmz//WcMNbzoLiiAUSC+yoEfd8XrWzlpmvB1dKl2Q+PA8JcBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <br>
+        <a href="http://facebook.com">facebook</a>
+        <a href="https://www.instagram.com/"><img src="img/ig.jpg" height="35px" align="center"/></a>
+        <a href="https://www.whatsapp.com/"><img src="img/whatsapp.png" height="35px" align="center"/></a>
+        <a href="https://github.com/">github</a>
+        <a href="https://www.linkedin.com/">linkedin</a>
+        <a href="https:jeimutai@gmail.com">email</a>
+        <br>
+    </footer>
+</body>
+</html>

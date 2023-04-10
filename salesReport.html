@@ -1,0 +1,118 @@
+
+<!DOCTYPE html> 
+<html> 
+	<head> 
+		<title>Icecream Sales Report</title> 
+
+		<!-- Linking the external CSS style sheet -->  
+        <link rel="stylesheet" type="text/css" href="salesReport.css">  
+
+    </head>
+
+    <body class="wrapper" style = "background-image: url('img/ice.jpg'); background-size: cover; color:#11d0e9; font-family: Arial, Helvetica, sans-serif; font-size: 75px;" >  
+
+    	 <!-- Header Section of the Page -->  
+        <header class="header-section">  
+
+        	 <!-- Logo of the page -->  
+            <div class = "logo-img"><marquee behavior=”scroll” direction=”left “ scrollamount=”5 “>Welcome to Icecream Management System </marquee></div>      
+
+             <!-- Heading of the page -->   
+            <h1 style="color:#eb3a0e; font-size: 40px;">Icecream Sales Report</h1>  
+            <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+        </header> 
+        <img src="img/ice.jpg" height="100px" alt="JerryNesS">
+		
+         <!-- Navigation Bar -->   
+         <div class="nav-bar"> 
+            <ul class="nav-list" style="color:#0f0f0f; font-size: 10px;"> 
+                <style>
+                    li {
+                        margin-right: 10px; /* adjust the value as needed */
+                    }
+                </style>
+                <ul>
+                    <a href="HOMEPAGE.HTML"><b>Home</b></a>
+                    <li><br><a href="Adminlogin.html"><b>AdminLogin</b></a></li> 
+                </ul>
+            </ul>     
+        </div>
+        
+
+          <!-- Main Content -->   
+          <main class="main-content">
+            <img src="img/imggraph.png" height="100px" alt="JerryNesS">
+            <div class="main-wrapper" style="background: rgba(196, 201, 134, 0.3); padding: 20px;">
+              <h2 style="color:#bb350c; font-size: 65px;">Sales Report</h2>
+              <p style="color:#ee0de3; font-size: 65px;">This page shows the sales report of all icecreams sold in our store.</p>
+              <script type="text/javascript" language="JavaScript">alert("Welcome to Icecream Management System")</script><br />
+          
+              <!-- Graph -->
+              <canvas id="sales-chart" width="400" height="400"></canvas>
+          
+              <div class="graph-section">
+                <script>
+                  var salesChart = new Chart(document.getElementById("sales-chart"), {
+                    type: 'line',
+                    data: {
+                      labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun'],
+                      datasets: [{
+                        label: 'Icecream Sales',
+                        data: [200, 300, 400, 250, 350, 450],
+                        backgroundColor: 'rgba(255, 9, 132, 0.2)',
+                        borderColor: 'rgba(255, 99, 132, 1)',
+                        borderWidth: 2
+                      }]
+                    },
+                    options: {
+                      scales: {
+                        yAxes: [{
+                          ticks: {
+                            beginAtZero: true,
+                            fontSize: 16 // add this line to set the font size
+                          }
+                        }],
+                        xAxes: [{
+                          scaleLabel: {
+                            display: true,
+                            labelString: 'Month',
+                            fontSize: 16, // change this value to a smaller font size, like 16px
+                            fontWeight: 'bold'
+                          },
+                          ticks: {
+                            fontSize: 16 // add this line to set the font size
+                          }
+                        }]
+                      }
+                    }
+                  });
+                </script>
+                <img src="img/pbs.jpg" height="100px" alt="JerryNesS">
+                <figcaption style="color:#fccf07; font-size: 65px;"><b>Figure 1: </b><i>Icecream Sales over the last few months</i></figcaption>
+              </div>
+          
+            </div>
+          
+          </main>
+          
+          <!-- Footer Section of the Page -->  
+        <footer class="footer-section" style="background-image: url('img/ice.jpg'); background-size:cover; color:#6f1399; font-size:; font-family:'Times New Roman', Times, serif;"> 
+<script type = "text/javascript" language= "JavaScript">
+document.write("&copy; 2020 Icecream Management System. All Rights Reserved.")
+</script>            	
+<p><marquee behavior=”scroll” direction=”fa-pull-right “ scrollamount=”5 “>Welcome to Icecream Management System </marquee></p>   
+            <img src="img/ice2.jpg" height="100px" alt="JerryNesS">
+            <br>
+            <a href="http://facebook.com">facebook</a>
+            <a href="https://www.instagram.com/"><img src="img/ig.jpg" height="35px" align="center"/></a>
+            <a href="https://www.whatsapp.com/"><img src="img/whatsapp.png" height="35px" align="center"/></a>
+            <a href="https://github.com/">github</a>
+            <a href="https://www.linkedin.com/">linkedin</a>
+            <a href="https:jeimutai@gmail.com">email</a>
+            <br>
+            
+        </footer>  
+
+	</body> 
+</html>

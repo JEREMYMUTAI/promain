@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sign up</title>
+    <link rel="stylesheet" href="login.css">
+    <script src="Node.js projects/login.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Ice Cream Management System</h1>
+      <img src="img/blueberry-icecream-.jpg" height="180px" align="right"/>
+        <img src="img/pbs.jpg" height="180px" align="left"/>
+
+    </header>
+    <nav>
+      <a href="HOMEPAGE.HTML">Home</a>
+      <a href="customers.html" class="active-menu"><i class="ri-customer-service-2-fill"></i></a> 
+      <a href="reports.html">Reports</a>
+    </nav>
+    <div class="form-container">
+      <h1>Login</h1>
+      <div class="container">
+        <form onsubmit="return authentication()">
+          <label for="login-type">Login as:</label>
+          <select name="login-type" id="login-type">
+            <option value="admin">Administrator</option>
+            <option value="staff">Staff</option>
+            <option value="user">User</option>
+          </select><br><br>
+          <label for="username">Username:</label>
+          <input type="text" name="username" id="username"><br><br>
+          <label for="password">Password:</label>
+          <input type="password" name="password" id="password"><br><br>
+          <input type="submit" value="Login">
+        </form>
+        <p>Don't have an account? <a href="register.html">Register here</a>.</p>
+        <p>Forgot your password? <a href="forgot_password.html">Reset it here</a>.</p>
+      </div>
+    </div>
+    <section>
+      <a href="HOMEPAGE.HTML"><b>Home</b></a>
+      <p>Try it out today and see how our system can benefit your business!</p>
+    </section>
+    <footer>
+      <p>&copy; 2023 Ice Cream Management System. All rights reserved.</p>
+      <br>
+      <a href="http://facebook.com">facebook</a>
+      <a href="https://www.instagram.com/"><img src="img/ig.jpg" height="35px" align="center"/></a>
+      <a href="https://www.whatsapp.com/"><img src="img/whatsapp.png" height="35px" align="center"/></a>
+      <a href="https://github.com/">github</a>
+      <a href="https://www.linkedin.com/">linkedin</a>
+      <a href="mailto:jeimutai@gmail.com">email</a>
+      <br>
+    </footer>
+    <script>
+      function authentication() {
+        var username = document.getElementById("username").value;
+        var password = document.getElementById("password").value;
+        if (username !== "jerryness" || password !== "34082908") {
+          alert("Invalid username or password!");
+          return false;
+        }
+        return true;
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,158 @@
+home {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image: url;
+    background-size: cover;
+    background-position: center;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #4ccbf2;
+    padding: 20px;
+    text-align: center;
+}
+h1 {
+    color: #fff;
+    margin: 0;
+    font-size: 45px;
+}
+nav {
+    background-color: #fde3fc;
+    overflow: hidden;
+    padding: 20px;
+    font-size: 23px;
+}
+nav a {
+    float: left;
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: #ddd;
+    color: #333;
+}
+section {
+    padding: 50px;
+    text-align: center;
+    font-size: 80px;
+    font-weight: bolder;
+    color:rgb(13, 13, 14)
+}
+section h2 {
+    color: #4cf2ea;
+    margin-bottom: 50px;
+}
+section p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #4cecf2;
+    padding: 20px;
+    text-align: center;
+}
+h1 {
+    color: #fff;
+    margin: 0;
+}
+nav {
+    background-color: #e3f2fd;
+    overflow: hidden;
+    padding: 20px;
+}
+nav a {
+    float: left;
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: #ddd;
+    color: #333;
+}
+section {
+    padding: 50px;
+    text-align: center;
+}
+section h2 {
+    color: #4ccbf2;
+    margin-bottom: 50px;
+}
+section p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+@media screen and (max-width: 768px) {
+    nav a {
+        float: none;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    section {
+        padding: 30px;
+    }
+    section h2 {
+        font-size: 28px;
+    }
+    section p {
+        font-size: 34px;
+    }
+}
+section { background-color:#ee0d7e; padding: 20px 0; background-image: url('img/blueberry-icecream-.jpg'); }
+
+
+        body { background-color: #F5FFFA; font-family: 'Times New Roman', Times, serif, sans-serif; }
+
+        h1{ color: #e00c81; text-align: center;}
+
+        nav { margin: 0 auto; width: 800px; padding 10px 0; }
+
+        nav a { color: #f7081c; text-decoration: none; padding: 10px 20px; font-size: 1.2em;} 
+
+        nav a:hover{ background-color:#FFE4B5;} 
+
+        section { margin 0 auto; width 800px;}
+
+        img { display block, margin 0 auto;text-align:center} 
+
+        footer {background-color:#f539c6 ;margin 0 auto; width 800px; textalign center}
+        const loginBtn = document.getElementById('login-btn');
+        
+       

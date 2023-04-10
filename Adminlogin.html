@@ -1,0 +1,65 @@
+<html>
+<head>
+    <marquee><title>Ice Cream Management System</title></marquee>
+    <link rel="stylesheet" type="text/css" href="Adminlogin.css">
+    <style>
+        body {
+            background-image: url("img/pbs.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Admin Login</h1>
+    </header>
+
+    <nav>
+        <a class="navbar-brand" href="HOMEPAGE.HTML">Home</a>
+        <img src="img/log.png" height="100px" alt="Logo">
+        <img src="img/product-image.jpg" height="180px" align="right"/>
+        
+    </nav>
+
+    <div class="login">
+        <form>
+            Username: <input type="text" name="username"><br><br>
+            Password: <input type="password" name="password"><br><br>
+            <input type="submit" value="Login" onclick="validate()">
+        </form>
+    </div>
+
+    <section>
+        <p>Try it out today and see how our system can benefit your business!</p>
+        
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Ice Cream Management System. All rights reserved.</p>
+        <br>
+        <a href="http://facebook.com">Facebook</a>
+        <a href="https://www.instagram.com/"><img src="img/ig.jpg" height="10px" align="center" alt="Instagram"/></a>
+        <a href="https://www.whatsapp.com/"><img src="img/whatsapp.png" height="10px" align="center" alt="WhatsApp"/></a>
+        <a href="https://github.com/">GitHub</a>
+        <a href="https://www.linkedin.com/">LinkedIn</a>
+        <a href="mailto:jeimutai@gmail.com">Email</a>
+        <br>
+    </footer>
+
+    <script>
+        function validate() {
+            var username = document.getElementsByName("username")[0].value;
+            var password = document.getElementsByName("password")[0].value;
+            if (username === "" || password === "") {
+                alert("Please enter both username and password.");
+            } else if (username !== "admin" || password !== "password") {
+                alert("Invalid username or password.");
+            } else {
+                alert("Login successful!");
+            }
+        }
+    </script>
+
+</body>
+</html>

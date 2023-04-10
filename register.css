@@ -1,0 +1,92 @@
+body {
+    background-image: url("img/chocolate.jpg");
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+	background-image: url("img/product-image.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+header {
+	text-align: center;
+} 
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+	background-color: #f2f2f2;
+    font-size: 85px;
+}
+
+nav a {
+	padding: 20px;
+	text-decoration: none;
+	color: rgb(208, 17, 233);
+    font-size: 35px;
+}
+
+
+nav img {
+	margin-right: 10px;
+    font-size: 35px;
+
+}
+
+section {
+	text-align: center;
+	margin: 40px;
+    font-size: 35px;
+}
+
+footer {
+	text-align: center;
+	background-color: #f2f2f2;
+	padding: 10px;
+	margin-top: 10px;
+}
+
+form {
+	text-align: center;
+	margin-top: 50px;
+    padding: 10px;
+	border: none;
+	border-radius: 10px;
+	margin: 10px;
+}
+
+
+input[type="text"], input[type="password"], input[type="submit"] {
+	padding: 10px;
+	border: none;
+	border-radius: 10px;
+	margin: 10px;
+}
+
+input[type="submit"] {
+	background-color: #4CAF50;
+	color: white;
+	cursor: pointer;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin: auto;
+}
+p {
+	font-size: 30px;
+	color: rgb(174, 0, 255);
+}
+section {
+    font-size: 55px;
+    color: #0ff52e;
+  }

@@ -1,0 +1,242 @@
+body {
+	background-image: url("img/ice.jpg");
+    
+	background-repeat: no-repeat;
+	background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500');
+
+body { 
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 auto; 
+    background-color: #f2f2f2; 
+}
+
+ header {   /*header style*/  				    
+    padding: 10px 20px;  /*padding of the head part */  	    
+    text-align : center;      /*text alignment to be in center*/       	      
+ }
+
+ nav {         /*navigation bar style*/             	      	              
+
+     text-align: center;      /*text alignment to be in center*/       	      
+     background-color : #f2f2f2;    /*background color of navigation bar*/ 	         
+ }
+
+ nav a {   /*navigation link style*/   	             
+
+     padding: 10px 20px;  /*padding of the head part */  	     
+     text-decoration : none;  /*no underline on the links */  	              
+ }
+
+ .form-container {         /*form container style*/             
+    width: 500px;           /*width of form container */           
+    margin: 0 auto;         /*margin set to zero and auto for centralizing form */            
+}
+
+h1 {          /*heading style*/             	      	              
+
+     text-align: center;      /*text alignment to be in center*/       	      
+}
+
+form {  /*form style */  	            
+
+    padding : 20px;         /*padding of the form part */ 	               
+    background-color : #f2f2f2;    /*background color of form */ 	          
+    border-radius : 10px;   /*border radius of 10 pixels for giving it a round shape*/        
+ }
+
+ label, input{     //label and input fields style           
+
+     display: block;        //displaying labels and input field as blocks           
+
+ }
+
+ label {    //label style        	      
+
+     padding : 10px;   //padding of the labels       
+ }
+
+ input {  /*input field style*/             	              
+     width: 100%;      /*width of input fields to be 100% */          
+     margin-bottom : 20px;  /*margin bottom for spacing out the inputs */           	      
+ }
+
+ button {  /*button style*/             	     	              
+
+    background-color : #f2f2f2;    /*background color of button */ 	         
+    padding: 10px 20px;  //padding of the button part                  
+}
+
+footer {    // footer style       	      
+
+   padding: 10px 20px;  /*padding of the head part */  	     
+   text-align : center;      /*text alignment to be in center*/       	      
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #f2c94c;
+    padding: 20px;
+    text-align: center;
+}
+h1 {
+    color: #fff;
+    margin: 0;
+}
+nav {
+    background-color: #fde3fc;
+    overflow: hidden;
+    padding: 20px;
+}
+nav a {
+    float: left;
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: #ddd;
+    color: #333;
+}
+section {
+    padding: 50px;
+    text-align: center;
+}
+section h2 {
+    color: #f2c94c;
+    margin-bottom: 50px;
+}
+section p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #f2c94c;
+    padding: 20px;
+    text-align: center;
+}
+h1 {
+    color: #fff;
+    margin: 0;
+}
+body {
+	background-image: url("img/ice.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+header {
+	text-align: center;
+} 
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+	background-color: #f2f2f2;
+    font-size: 25px;
+}
+
+nav a {
+	padding: 5px;
+	text-decoration: none;
+	color: rgb(208, 17, 233);
+    font-size: 20px;
+}
+
+
+nav img {
+	margin-right: 10px;
+    font-size: 15px;
+
+}
+
+section {
+	text-align: center;
+	margin: 20px;
+    font-size: 35px;
+}
+
+footer {
+	text-align: center;
+	background-color: #72f5d4;
+	padding: 10px;
+	margin-top: 10px;
+}
+
+form {
+	text-align: center;
+	margin-top: 50px;
+}
+
+input[type="text"], input[type="password"], input[type="submit"] {
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	margin: 10px;
+	background-color: #72f5d4;
+	font-size: 25px
+}
+
+input[type="submit"] {
+	background-color: #012002;
+	color: rgb(83, 231, 231);
+	cursor: pointer;
+}
+
+img {
+	max-width: 100px;
+	height: auto;
+	display: block;
+	margin: auto;
+}
+
+section { background-color:#ee0d7e; padding: 20px 0; background-image: url('img/blueberry-icecream-.jpg'); }
+
+
+        body { background-color: #F5FFFA; font-family: 'Times New Roman', Times, serif, sans-serif; }
+
+        h1{ color: #e00c81; text-align: center;}
+
+        nav { margin: 0 auto; width: 800px; padding 10px 0; }
+
+        nav a { color: #f7081c; text-decoration: none; padding: 10px 20px; font-size: 1.2em;} 
+
+        nav a:hover{ background-color:#FFE4B5;} 
+
+        section { margin 0 auto; width 800px;}
+
+        img { display block, margin 0 auto;text-align:center} 
+
+        footer {background-color:#f539c6 ;margin 0 auto; width 800px; textalign center}
+        const loginBtn = document.getElementById('login-btn');
+body {
+            background-image: url("img/ice.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family: 'Times New Roman', Times, serif;
+            
+        }
